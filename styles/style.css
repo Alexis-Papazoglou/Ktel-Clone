@@ -1,0 +1,377 @@
+
+body{
+    background-image: url(./img/background\ image\ for\ html.png);
+    background-size: cover;
+}
+
+
+.container-of-all{
+    width: 70%;
+    padding: 1px;
+    margin-left: 24.5%;
+    margin-top: 10.5%;
+}
+
+#home-img{
+    position: absolute;
+    margin-top: -122px;
+}
+
+
+
+/* Dropdown content*/
+
+.navbar{
+    position: relative;
+    margin-top: -4.5%;
+
+    width: 71%;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background-color: #F5F5F5;
+
+    display: flex;
+}
+
+
+
+.drop-list {
+    list-style-type: none;
+    margin: 0;
+
+    overflow: hidden;
+    padding: 0.1vw;
+    padding-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    
+}
+  
+.dropdown {
+    float: left;
+}
+
+
+.dropbtn{
+    background-color: #6E6E6E;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+  
+.dropdown a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.dropdown a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(25, 0, 255);
+}
+  
+.dropdown {
+    display: inline-block;
+    padding-left: 20px;
+    
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+/*-------------------Inside box----------------------*/
+
+
+
+
+.in-page{
+    background-image: url("./img/back2.png");
+    background-repeat: no-repeat;
+    position: relative;
+    border: 1px solid;
+    max-width: 49vw;
+    min-height: 31vw;
+    max-height: 31vw;
+}
+
+    /*flexbox*/
+    .flexbox1{
+        position: relative;
+        display: flex;
+    }
+
+    #covid{
+        margin-top: 5vw;
+    }
+
+    .text{
+        margin-top: 5vw;
+        margin-left: 6vw;
+       
+        max-width: 20vw;
+    }
+
+    .search{
+        position: absolute;
+        left: 75%;
+        top: 0;
+        margin-top: 1%;
+        width: 100px;
+    }
+
+
+    .sbtn{
+        position: absolute;
+
+        left: 90%;
+        margin-top: -43.8%;
+    }
+
+    /*breifcases*/
+
+
+    .links{
+        position: relative;
+        display:flex;
+        gap: 1rem;
+        width: 60%;
+
+    }
+    
+    
+    .blink{
+        font-size: 12px;
+        text-align: center;
+        flex: 1;
+        padding: 0.2vw;
+        border: 2px solid;
+
+        margin-top: 1vw;
+        
+        background-color:   gray;
+        color: black;
+
+        border-radius: 20px;
+
+        max-height: 4vw;
+
+    }
+
+    .dec-imgs{
+        position: relative;
+    }
+
+    .dec-img-hor{
+        position: absolute;
+    }
+
+    .dec-img-ver{
+        position: absolute;
+        top: -10vw;
+    }
+
+    .dec-img-hor{
+        position: absolute;
+        top: 0vw;
+        margin-top: 14%;
+        left: 60%;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------- scc yposelidwn------------------------------*/
+
+.epilogh-proorismou-bg{
+    position: relative;
+    width: 100%;
+}
+
+
+/*text selides*/
+
+#text-pages-h3{
+    background-color: #6E6E6E;
+    padding: 1vw;
+    margin-top: -1.2vw;
+    font-size: 0.8vw;
+    color: #4BC7E9;
+    margin-bottom: 0px;
+}
+
+
+
+.ekd-text{
+    width: 40%;
+    position: relative;
+    top: 0vw;
+    margin-top: 10%;
+    left: 10%;
+
+    height: 20vw;
+    
+    overflow: auto;
+
+}
+
+#ekdotirio{
+    padding: 0.5vw;
+    color: #47C7EC;
+    text-align: center;
+    width: 12vw;
+    background-color: #6E6E6E;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 0.2px solid;
+}
+
+#ekd-par{
+    padding: 1vw;
+    margin-top: -20px;
+    background-color: #6E6E6E;
+    font-size: 0.7vw;
+
+    color: white;
+
+}
+
+.oroi-png{
+    margin-left:5.5vw;
+}
+
+
+
+/*xartes*/
+
+#map-areas{
+    z-index: 10000;
+    opacity: 1;
+    color: black;
+    background-color: black;
+}
+
+
+#xarths-ell{
+    position: relative;
+    width: 70%;
+}
+
+#xarths-eks{
+    position: relative;
+    width: 70%;
+    height: 100%;
+}
+
+#eswteriko-par{
+    margin: 2vw;
+    font-size: 0.8vw;
+    position: relative;
+    margin-top: 6vw;
+    height: 60%;
+
+    background-color: #D5EDF7;
+    padding: 0.5vw;
+
+    border-top: 1.5vw solid #4BC7E9;
+    border-radius: 10px;
+
+}
+
+.diadromoi{
+    margin-top: -3%;
+    background-color: #6E6E6E;
+    padding: 20px;
+}
+
+#kefalida-anaxwrhsh{
+    background-color: #9A9A9A;
+    color: white;
+    
+}
+
+#kefalida-anaxwrhsh > th{
+    border: 2px solid white;
+    padding: 10px;
+}
+
+#data-anaxwrhsh > td{
+    font-size: 0.7vw;
+    border: 1px solid white;
+    padding: 10px;
+    color: black;
+}
+
+#data-anaxwrhsh:nth-child(odd){
+    background-color: #F0F0F0;
+}
+#data-anaxwrhsh:nth-child(even){
+    background-color: #E3E3E3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLES */
+
+.table2{
+    background-color: rgb(51, 51, 51);
+}
+
+
